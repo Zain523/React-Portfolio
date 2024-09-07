@@ -1,0 +1,131 @@
+#About {
+    width: 100%;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 50%;
+}
+
+.hero-img {
+    width: 50%;
+}
+
+.hero-name {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.hero-name h5 {
+    font-weight: 500;
+    font-size: 17px;
+    transform: translateY(10px);
+}
+
+.hero-name h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+.auto-type,
+.typed-cursor {
+    font-size: 35px;
+    color: #FC6736;
+    font-weight: bold;
+
+}
+
+
+.hire-btn {
+    background-color: #FC6736;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 7px;
+    font-size: medium;
+    text-align: center;
+    display: flex;
+    gap: 14px;
+    transition: all 0.1s ease-in;
+}
+
+.hire-btn i {
+    color: white;
+    width: 10px;
+    height: 10px;
+}
+
+.hire-btn:hover {
+    cursor: pointer;
+
+}
+
+.links a {
+    color: black;
+    font-size: medium;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 3px;
+
+    font-weight: 500;
+}
+
+.intro {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+
+}
+
+.intro img {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.social {
+    display: flex;
+    align-items: baseline;
+    width: fit-content;
+}
+
+.social>span,
+.accounts i {
+    font-size: 18px;
+}
+
+.accounts {
+    display: flex;
+    gap: 15px;
+}
+
+.accounts i:hover {
+    color: #FC6736;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .profile-container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,16 @@
+.Bar_title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Bar_title span{
+    color: #576574;
+    font-size: small;
+    font-weight: bold;
+}
+
+.Skill-Bar{
+    margin-top: 1rem;
+}
+
+

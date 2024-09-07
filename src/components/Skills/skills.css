@@ -1,0 +1,70 @@
+.Skill-Container {
+    width: 100%;
+    min-height: 85vh;
+    max-height: fit-content;
+    padding-top: 6rem;
+}
+
+.Skill-title {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.Skill-title h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.Skill-title p {
+    box-sizing: border-box;
+    padding: 0.3rem 1rem;
+}
+
+.Skill-title>* {
+    margin: 0;
+}
+
+.My-Skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.skill {
+    padding: 1.5rem 1rem;
+    margin: 0 auto;
+    width: 28%;
+    min-height: 45vh;
+
+}
+
+.title {
+    color: #FC6736;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+@media (max-width : 1000px) {
+
+    .skill {
+        width: 70%;
+        margin: 0 auto;
+        padding: 0;
+        min-height: fit-content;
+
+    }
+
+    .Frontend {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width : 768px) {
+
+    .skill {
+        width: 100%;
+        min-height: fit-content;
+    }
+}

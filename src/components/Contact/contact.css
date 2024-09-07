@@ -1,0 +1,97 @@
+#Contact {
+    width: 100%;
+    min-height: 90vh;
+    padding-top: 4rem;
+    max-height: fit-content;
+}
+
+.Contact-title {
+    text-align: left;
+    width: 100%;
+}
+
+.Contact-title>h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.wraper {
+    display: flex;
+    flex-direction: row;
+}
+
+.map,
+.contact-form {
+    flex-grow: 1;
+    flex-basis: 50%;
+    height: 500px;
+}
+
+.contact-form {
+    background: #ecf0f1;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+form :where(input, textarea) {
+    width: 85%;
+    padding: 0.7rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+}
+
+textarea {
+    resize: none;
+    min-height: 120px;
+}
+
+form button {
+    width: 90%;
+    padding: 0.8rem;
+    font-size: medium;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: #FC6736;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    outline: none;
+}
+
+.recaptcha-wraper {
+    width: 87%;
+}
+
+form button:hover {
+    color: #FC6736;
+    outline: 2px solid #FC6736;
+    background-color: white;
+}
+
+form :where(input, textarea):focus {
+    outline: none;
+    border: none;
+}
+
+@media (max-width: 992px) {
+    .wraper {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .map,
+    .contact-form {
+        flex-basis: 100%;
+    }
+
+}

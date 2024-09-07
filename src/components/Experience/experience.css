@@ -1,0 +1,171 @@
+#Experience {
+    padding-top: 6rem;
+    height: fit-content;
+
+}
+
+.Exp-title {
+    text-align: center;
+    width: 100%;
+}
+
+.Exp-title p {
+    box-sizing: border-box;
+    padding: 0.3rem 1rem;
+}
+
+.Exp-title>* {
+    margin: 0;
+
+}
+
+.Exp-title>h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.exp-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.center-line {
+    background-color: #fc673670;
+    width: 4px;
+    border-radius: 10px;
+    height: 80%;
+    position: absolute;
+    top: 7rem;
+    right: 50%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 6rem 0;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.box {
+    width: 40rem;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.box-1 {
+
+    margin-top: 7rem;
+}
+
+.box-2 {
+
+    margin-top: 2rem;
+}
+
+
+
+.Exp-info {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 30px 7px #fc67363a;
+}
+
+.Exp-info>* {
+    margin: 0;
+}
+
+.Exp-info h3 {
+    color: #FC6736;
+    font-size: 23px;
+}
+
+.Exp-info p:nth-child(3) {
+    background-color: #FC6736;
+    color: white;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 0.5rem;
+    text-align: center;
+    margin: 0.8rem 0;
+}
+
+.Exp-info:hover,
+.Exp-info:hover h3 {
+    background-color: #FC6736;
+    color: white;
+    cursor: pointer;
+}
+
+.Exp-info p:last-child {
+    position: relative;
+    top: -8px;
+}
+
+.Exp-info:hover p:nth-child(3) {
+    background-color: white;
+    color: #FC6736;
+}
+
+.box:nth-child(odd) {
+    justify-content: right;
+}
+
+.box-2 .Exp-info {
+    order: 2;
+}
+
+.center-line>* {
+    background-color: #FC6736;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    box-shadow: 1px 1px 5px 3px white;
+    padding: 5px;
+}
+
+.center-line span>img {
+    filter: invert(100%);
+}
+
+@media only screen and (max-width : 660px) {
+    .Exp-info {
+        width: 80%;
+        margin: auto;
+    }
+
+
+    .box {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .center-line {
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .center-line span {
+        transform: translateY(-10rem);
+        position: sticky;
+        gap: 0;
+    }
+
+    #Exeprience {
+        width: 100%;
+        padding: 8rem 0;
+    }
+
+
+}
+
+@media (max-width : 490px) {
+    .Exp-info {
+        width: 100%;
+    }
+}
