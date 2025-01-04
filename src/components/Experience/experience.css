@@ -35,7 +35,7 @@
     background-color: #fc673670;
     width: 4px;
     border-radius: 10px;
-    height: 80%;
+    height: 90%;
     position: absolute;
     top: 7rem;
     right: 50%;
@@ -52,19 +52,18 @@
     width: 40rem;
     display: flex;
     justify-content: flex-start;
+    /* background-color: red; */
 
 }
 
 .box-1 {
-
     margin-top: 7rem;
 }
 
-.box-2 {
+:where(.box-2, .box-3, .box-4) {
 
     margin-top: 2rem;
 }
-
 
 
 .Exp-info {
@@ -75,6 +74,8 @@
     padding: 10px 15px;
     box-sizing: border-box;
     box-shadow: 1px 1px 30px 7px #fc67363a;
+    min-width: 17rem;
+
 }
 
 .Exp-info>* {

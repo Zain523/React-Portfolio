@@ -48,6 +48,9 @@ li {
 
 .nav-item li:hover a {
     cursor: pointer;
+    color: #FC6736;
+    /* font-weight: bold; */
+
 }
 
 .nav-item li a {

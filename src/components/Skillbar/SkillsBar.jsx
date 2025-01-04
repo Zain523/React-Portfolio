@@ -1,6 +1,7 @@
 import React from 'react'
 import ProgressBar from '@ramonak/react-progress-bar'
 import './Skillbar.css'
+
 const SkillsBar = ({ name, percentage }) => {
     return (
         <div className='Skill-Bar'>
@@ -10,6 +11,7 @@ const SkillsBar = ({ name, percentage }) => {
                 </span>
                 <span>{percentage}%</span>
             </div>
+
             <ProgressBar
                 completed={percentage}
                 bgColor='#FC6736'
@@ -19,7 +21,6 @@ const SkillsBar = ({ name, percentage }) => {
                 isLabelVisible={false}
                 margin='5px 0'
             />
-
         </div>
     )
 }

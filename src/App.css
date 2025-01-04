@@ -14,14 +14,20 @@
     background: rgba(128, 128, 128, 0.463);
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-@media (max-width : 576px){
 
-    .App{
+.accounts i:hover {
+    color: #FC6736;
+    cursor: pointer;
+}
+
+@media (max-width : 576px) {
+
+    .App {
         width: 100%;
-        padding:0 1rem;
+        padding: 0 1rem;
     }
 }

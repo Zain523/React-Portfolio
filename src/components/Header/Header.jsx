@@ -3,7 +3,6 @@ import './header.css'
 import { useState, useEffect } from 'react';
 
 const Header = () => {
-
     const [iconStyle, setIconStyle] = useState("fa fa-paper-plane");
     const [text, setText] = useState();
 
@@ -46,7 +45,12 @@ const Header = () => {
                 <li><a href="#Contact">Contact</a></li>
             </ul>
 
-            <button className='send-btn'>
+            <button className='send-btn' 
+            onClick={() => {
+                document.getElementById('Contact').scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }}>
                 <i className={iconStyle} aria-hidden="true"></i>
                 &nbsp; {text}
             </button>

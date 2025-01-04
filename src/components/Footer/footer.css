@@ -1,6 +1,6 @@
 footer{
     background-color: #2c3e50;
-    min-height: 40vh;
+    min-height: 19rem;
     width: 100%;
     max-height: fit-content;
 }
@@ -17,7 +17,7 @@ footer{
     width: 40%;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
     flex-direction: column;
 }
 
@@ -30,18 +30,13 @@ footer{
     margin-top: 3rem;
 }
 
-.right .accounts i{
-    background-color: #405469;
-    padding: 0.5rem;
-    border-radius: 100%;
-}
-
 .right .nav-item a{
     color: #FC6736;
 }
 
 .right .nav-item {
     padding-left: 0 ;
+    /* margin-top: 5rem; */
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -64,5 +59,12 @@ footer{
     }
     .footer-wraper .left h1{
         width: 100%;
+    }
+    .right .nav-item {
+        display: block;
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        transform: translateY(-1rem);
     }
 }
