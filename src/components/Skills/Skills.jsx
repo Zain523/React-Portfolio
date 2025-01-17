@@ -31,8 +31,8 @@ const Skills = () => {
                         <SkillsBar name='EXPRESS JS' percentage={70} />
                         <SkillsBar name='SQL' percentage={80} />
                         <SkillsBar name='MONGO DB' percentage={80} />
-                        <SkillsBar name='GRAPH QL' percentage={80} />
-                        <SkillsBar name='WEB SOCKETS' percentage={80} />
+                        {/* <SkillsBar name='GRAPH QL' percentage={80} />
+                        <SkillsBar name='WEB SOCKETS' percentage={80} /> */}
                     </div>
                 </Fade>
                 <Fade up duration={2000}>

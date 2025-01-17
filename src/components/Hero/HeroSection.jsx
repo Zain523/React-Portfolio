@@ -5,7 +5,6 @@ import dashboard from '../../assets/icons/dashboard.png'
 import Fade from 'react-reveal/Fade';
 import Button from '../UI Components/HireButton/Button';
 import SocialAccounts from '../UI Components/SocialLinks/SocialAccounts';
-
 const HeroSection = () => {
 
     useEffect(() => {
@@ -37,8 +36,10 @@ const HeroSection = () => {
                 </div>
                 <Fade up duration={2000}>
                     <div className='links'>
-                        <Button />
-                        <a href="#Portfolio">See Portfolio</a>
+                        {/* Hire Me Button */}
+                        <Button /> 
+
+                        <a href='/My_CV.pdf' download={'Zain_SE_cv.pdf'}>Download CV</a>
                     </div>
                 </Fade>
                 <Fade right duration={2000}>
@@ -49,7 +50,7 @@ const HeroSection = () => {
                 </Fade>
                 <SocialAccounts />
             </div>
-            <h1>Image place</h1>
+            {/* <h1>Image place</h1> */}
             {/* <div className="hero-img">
             </div> */}
         </section>

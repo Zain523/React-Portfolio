@@ -10,18 +10,18 @@ const Button = () => {
         borderRadius: '7px',
         fontSize: 'medium',
         display: 'flex',
-        alignItems:'center',
+        alignItems: 'center',
         gap: '14px',
         transition: 'all 0.1s ease-in',
         cursor: 'pointer',
-        textDecoration:'none'
+        textDecoration: 'none'
     }
 
     const iconStyle = {
         color: 'white',
         width: '10px',
         height: '10px',
-        marginBottom:'3px'
+        marginBottom: '3px'
     }
     return (
         <a href='#Contact' style={linkStyle}>

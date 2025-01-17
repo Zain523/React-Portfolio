@@ -34,6 +34,10 @@ footer{
     color: #FC6736;
 }
 
+
+.right .accounts a {
+    color: white;
+}
 .right .nav-item {
     padding-left: 0 ;
     /* margin-top: 5rem; */

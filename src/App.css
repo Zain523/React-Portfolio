@@ -24,6 +24,10 @@ html {
     cursor: pointer;
 }
 
+.accounts a {
+    color: black;
+}
+
 @media (max-width : 576px) {
 
     .App {

@@ -54,7 +54,7 @@ textarea {
     min-height: 120px;
 }
 
-form button {
+.btn {
     width: 90%;
     padding: 0.8rem;
     font-size: medium;
@@ -72,7 +72,7 @@ form button {
     width: 87%;
 }
 
-form button:hover {
+.btn-enabled:hover {
     color: #FC6736;
     outline: 2px solid #FC6736;
     background-color: white;
