@@ -38,11 +38,11 @@
     height: 90%;
     position: absolute;
     top: 7rem;
-    right: 50%;
+    /* right: 50%; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     box-sizing: border-box;
-    padding: 6rem 0;
+    /* padding: 6rem 0; */
     align-items: center;
     flex-direction: column;
     z-index: 10;
@@ -149,12 +149,26 @@
 
     .center-line {
         background-color: rgba(255, 255, 255, 0);
+        justify-content: space-around;
+        top: 0rem;
+        
     }
 
-    .center-line span {
-        transform: translateY(-10rem);
+    .center-line span:nth-child(1) {
+        /* transform: translateY(-10rem);
         position: sticky;
-        gap: 0;
+        gap: 0; */
+
+        transform: translateY(-4rem);
+    }
+    .center-line span:nth-child(2) {
+        transform: translateY(-2.2rem);
+    }
+    .center-line span:nth-child(3) {
+        transform: translateY(-0.7rem);
+    }
+    .center-line span:nth-child(4) {
+        transform: translateY(1rem);
     }
 
     #Exeprience {

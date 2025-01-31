@@ -17,8 +17,8 @@ const Portfolio = () => {
                     <figure>
                         <img src={calculator} alt="Calculator" />
                         <figcaption>
-                            <a href="https://soft-pony-8588ad.netlify.app/" rel="noopener noreferrer" target="_blank"><i className="fa-solid fa-link"></i></a>
-                            <a href="/*"><i className="fa-sharp fa-regular fa-eye"></i></a>
+                            <a href="https://soft-pony-8588ad.netlify.app/" rel="noreferrer" target="_blank"><i className="fa-solid fa-link"></i></a>
+                            {/* <a href="/*"><i className="fa-sharp fa-regular fa-eye"></i></a> */}
                         </figcaption>
                     </figure>
                 </Fade>
@@ -26,8 +26,8 @@ const Portfolio = () => {
                     <figure>
                         <img src={todo} alt="Todo" />
                         <figcaption>
-                            <a href="https://fluffy-moxie-11cce3.netlify.app/" target='_blank'><i className="fa-solid fa-link"></i></a>
-                            <a href="/*"><i className="fa-sharp fa-regular fa-eye"></i></a>
+                            <a href="https://fluffy-moxie-11cce3.netlify.app/" target='_blank' rel="noreferrer"><i className="fa-solid fa-link"></i></a>
+                            {/* <a href="/*"><i className="fa-sharp fa-regular fa-eye"></i></a> */}
                         </figcaption>
                     </figure>
                 </Fade>
@@ -35,8 +35,8 @@ const Portfolio = () => {
                     <figure>
                         <img src={clock} alt="Clock" />
                         <figcaption>
-                            <a href="https://splendorous-gnome-742b86.netlify.app/" target='_blank'><i className="fa-solid fa-link"></i></a>
-                            <a href="/*"><i className="fa-sharp fa-regular fa-eye"></i></a>
+                            <a href="https://splendorous-gnome-742b86.netlify.app/" target='_blank' rel="noreferrer"><i className="fa-solid fa-link"></i></a>
+                            {/* <a href="/*"><i className="fa-sharp fa-regular fa-eye"></i></a> */}
                         </figcaption>
                     </figure>
                 </Fade>
@@ -44,13 +44,12 @@ const Portfolio = () => {
                     <figure>
                         <img src={weather} alt="weather forecast" />
                         <figcaption>
-                            <a href="https://amazing-bavarois-79195c.netlify.app/" target='_blank'><i className="fa-solid fa-link"></i></a>
-                            <a href="/*"><i className="fa-sharp fa-regular fa-eye"></i></a>
+                            <a href="https://amazing-bavarois-79195c.netlify.app/" target='_blank' rel="noreferrer"><i className="fa-solid fa-link"></i></a>
+                            {/* <a href="/*"><i className="fa-sharp fa-regular fa-eye"></i></a> */}
                         </figcaption>
                     </figure>
                 </Fade>
-
-
+                
             </div>
         </section >
     )

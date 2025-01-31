@@ -16,8 +16,12 @@
 
 #Portfolio .Projects-section {
     height: fit-content;
+    /* background-color: red; */
     width: 100%;
     display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto, 1fr); */
     gap: 2rem;
 
 }
@@ -28,6 +32,7 @@
     cursor: pointer;
     border-radius: 6px;
     margin: 0;
+
 
     flex-grow: 1;
     flex-basis: 300px;
@@ -103,6 +108,11 @@ figure:hover img {
     .Projects-section { 
         flex-wrap: wrap;
         flex-grow: 1;
+        height: 150px;
+
+        /* background-color: red; */
+        /* grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto; */
     }
     
 }

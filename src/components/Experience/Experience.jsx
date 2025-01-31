@@ -29,6 +29,7 @@ const Experience = () => {
                         <span>
                             <img src={building} alt="Building Icon" />
                         </span>
+
                     </div>
                     <Fade left duration={2000}>
                         <div className="box-1  box">
